@@ -4,13 +4,13 @@ import Login from './components/Login';
 import Register from './components/Register';
 import CourseList from './components/CourseList';
 import AdminDashboard from './components/AdminDashboard';
-
+import HomePage from './components/HomePage';
 const App = () => {
   return (
     <Router>
       <div>
         <Routes>
-          <Route path="/" element={<CourseList />} />
+          <Route path="/" element={<HomePage />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/courses" element={<CourseList />} />
