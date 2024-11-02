@@ -1,5 +1,4 @@
-/* General page styling */
-body {
+.body {
     display: flex;
     align-items: center;
     justify-content: center;

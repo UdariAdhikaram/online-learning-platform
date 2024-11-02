@@ -14,5 +14,3 @@ router.post('/', authenticateToken, async (req, res) => {
     res.status(500).json({ error: 'Failed to create course' });
   }
 });
-
-// Additional routes for Read, Update, and Delete
